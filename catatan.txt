@@ -1,0 +1,56 @@
+//jika tidak absen datang atau pulang maka dianggap tidak hadir
+//jika penginputan penyesuaian gaji diatas tanggal 26
+// tambah hari limbur kalender nasional
+
+
+//
+// tambah hari kerja, pokoknya dibagi 26, KHUSUS
+//off masuk, dikali 2
+
+//8 off, turun 2,
+
+//2 x 2 
+
+// perbaiki
+// data karyawan
+
+
+
+///////////////////////////////////////////////////////////////
+///////////////// TANGGAL 22 AGUSTUS 2023 ////////////////////
+/////////////////////////////////////////////////////////////
+1. tambah jam real di excel 
+    slip gaji jam masuk, 
+    jam istirahat keluar, 
+    jam istirahat masuk, 
+    jam pulang, 
+    jam masuk lembur, 
+    jam keluar lembur,
+    is_non_stop
+
+
+3. masalah cuti tidak masuk pada slip gaji (padahal sudah ada di sytem dan sudah approve)
+4. bug pada cuti, buat cuti dan approve cuti
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
