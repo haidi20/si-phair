@@ -18,7 +18,7 @@
                         $domain = $parsedUrl['scheme'] . '://' . $parsedUrl['host'];
                     @endphp
 
-                    <notification user="{{ auth()->user() }}" base-url="{{ Url::to('/') }}" />
+                    {{-- <notification user="{{ auth()->user() }}" base-url="{{ Url::to('/') }}" /> --}}
                     {{-- <notification user_id="10" /> --}}
                 </div>
                 <div class="dropdown">
@@ -26,7 +26,7 @@
                         <div class="user-menu d-flex">
                             <div class="user-name text-end">
                                 <h6 class="mb-0 text-gray-600">{{ Auth::user()->name }}</h6>
-                                <p class="mb-0 text-sm text-gray-600">{{ Auth::user()->role->name }}</p>
+                                {{-- <p class="mb-0 text-sm text-gray-600">{{ Auth::user()->role->name }}</p> --}}
                             </div>
                             <!-- <div class="user-img d-flex align-items-center">
                                 <div class="avatar avatar-md">
@@ -37,9 +37,10 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton"
                         style="min-width: 11rem; margin-top: 20%;">
-                        <li><a class="dropdown-item" target="_blank" href="/dokumentasi/1.0/menu/dashboard"><i
+                        {{-- <li><a class="dropdown-item" target="_blank" href="/dokumentasi/1.0/menu/dashboard"><i
                                     class="icon-mid bi bi-book me-2"></i>
-                                Dokumentasi</a></li>
+                                Dokumentasi</a>
+                        </li> --}}
                         <li>
                             <hr class="dropdown-divider">
                         </li>
